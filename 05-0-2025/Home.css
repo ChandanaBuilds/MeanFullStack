@@ -1,0 +1,44 @@
+.img1{
+    height:200px;
+    width:200px;
+    margin-left:100px;
+}
+.nav1{
+    text-decoration: none;
+    margin-left:50px;
+    font-weight:800;
+    font-size:25px;
+    color:blue;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.nav2{
+    margin-top:-10px;
+    height:70px;
+}
+.nav3{
+    margin-left:300px;
+    margin-top:-150px;
+}
+
+.Footer{
+    background-color:aqua;
+    text-align:center;
+    height:50px;
+    margin-top:100px;
+    padding:20px;
+    font-weight:800;
+    font-family: Arial, Helvetica, sans-serif;
+    color:blue;
+    font-size:25px;
+}
+.image2{
+    height:400px;
+    width:1000px;
+    margin-left:300px;
+    margin-top:150px;
+}
+.image1{
+    height:400px;
+    width:1000px;
+    margin-left:300px;
+}

@@ -1,0 +1,14 @@
+.dropdown-menu{
+    display:none;
+}
+.dropdown-btn{
+    width:100px;
+    padding:10px;
+    background-color:aqua;
+}
+.dropdown{
+    width:200px;
+}
+.dropdown:hover .dropdown-menu{
+    display:block;
+}

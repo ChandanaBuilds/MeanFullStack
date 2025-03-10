@@ -1,0 +1,54 @@
+<!Doctype html>
+<html>
+    <head>
+        <title>Forms</title>
+        <link rel="stylesheet" href="Forms.css">
+    </head>
+    <body>
+        <fieldset>
+            <legend>Registration Form</legend>
+        <form>
+            <label for ="name">Username</label>
+            <input type="text" placeholder="enter user name" reguired pattern="[a-zA-Z0-9]{5,10}" title="Enter 4 to 6 characters">
+            <br><br>
+            <label for="Phone number">Phone Number</label>
+            <input type="text" placeholder="Enter Phone number" required pattern="{1,10}" title="Enter 10 digits">
+            <br><br>
+            <label for ="Email">Email</label>
+            <input type="text" placeholder="Enter Email" required pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$" title="Enter valid email">
+            <br><br>
+            <label for="Gender">Gender</label>
+            <input type="radio" name="gen" id ="">Male
+            <input type="radio" name="gen" id="">Female
+            <input type="radio" name="gen" id="">Prefer not to say
+            <br><br>
+            <label for ="">Upload File</label>
+            <input type="file">
+            <br><br>
+            <label for="">Select Color</label>
+            <input type="color" name="" id="">
+            <br><br>
+            <label for="">DOB</label>
+            <input type="datetime-local" name="" id="">
+            <br><br>
+            <label for="">Select fav team</label>
+            <Select name="" id="">
+            <option value="">CSK</option>
+            <option value="">MI</option>
+            <option value="">RCB</option>
+            </Select>
+            <br><br>
+            <label for="">Fav City</label>
+            <input list="city">
+            <datalist id="city">
+                <option value="ViZAG">vizag</option>
+                <option value="Hyderabad">Hyderabad</option>
+            </datalist>
+            <br><br>
+            <input type="Submit" value="Register Now">
+            <input type="Reset" value="Reset">
+
+        </form>
+        </fieldset>
+    </body>
+</html>

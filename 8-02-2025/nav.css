@@ -1,0 +1,17 @@
+nav{
+    background-color:bisque;
+    height:30px;
+    padding:5px;
+}
+li{
+    display:inline;
+    padding:10px;
+}
+.list{
+    margin-left:200px;
+    margin-top:-1px;
+}
+a{
+    text-decoration:none;
+    font-size:20px;
+}

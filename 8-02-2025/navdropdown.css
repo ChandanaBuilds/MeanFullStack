@@ -1,0 +1,31 @@
+.dropdown-menu{
+    display:none;
+}
+.dropdown-btn{
+    width:100px;
+    padding:10px;
+    background-color:aqua;
+}
+.dropdown{
+    width:200px;
+    margin-left:200px;
+    margin-top:-17px;
+}
+a{
+    text-decoration:none;
+}
+.dropdown:hover .dropdown-menu{
+    display:block;
+}
+a:link{
+    color:brown;
+}
+a:visited{
+    color:blue;
+}
+li{
+    display:inline;
+}
+nav{
+    background-color:bisque;
+}
